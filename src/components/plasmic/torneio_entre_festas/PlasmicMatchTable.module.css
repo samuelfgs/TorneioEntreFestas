@@ -1,0 +1,190 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+}
+.freeBox___0PrIx {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  background: none;
+  min-width: 0;
+  min-height: 0;
+  padding: 0px;
+}
+.freeBox___0PrIx > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  min-height: 0;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+}
+.freeBox___0PrIx > :global(.__wab_flex-container) > *,
+.freeBox___0PrIx > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___0PrIx > :global(.__wab_flex-container) > picture > img,
+.freeBox___0PrIx
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 0px;
+}
+.freeBox__jjcKr {
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 60%;
+  height: 100%;
+  max-width: 100%;
+  margin-right: 0px;
+  transform: none;
+  min-height: 0;
+  padding: 5px;
+  border-style: solid;
+  border-color: #cccccc;
+}
+.freeBox__lgNgh {
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  width: 15%;
+  height: 100%;
+  max-width: 100%;
+  margin-right: 0px;
+  transform: none;
+  margin-bottom: 0px;
+  min-height: 0;
+  padding: 5px 5px 36px;
+  border-style: solid;
+  border-color: #cccccc;
+}
+.text__qt50S {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(-90deg);
+}
+.freeBox___85LHl {
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  width: 15%;
+  height: 100%;
+  max-width: 100%;
+  margin-right: 0px;
+  transform: none;
+  margin-bottom: 0px;
+  min-height: 0;
+  padding: 5px 5px 13px;
+  border-style: solid;
+  border-color: #cccccc;
+}
+.text__ob874 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(-90deg);
+}
+.freeBox__zkq8F {
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  width: 15%;
+  height: 100%;
+  max-width: 100%;
+  margin-right: 0px;
+  transform: none;
+  margin-bottom: 0px;
+  min-height: 0;
+  padding: 5px 5px 19px;
+  border-style: solid;
+  border-color: #cccccc;
+}
+.text__nrKEv {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(-90deg);
+}
+.freeBox___2Yq {
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  width: 15%;
+  height: 100%;
+  max-width: 100%;
+  margin-right: 0px;
+  transform: none;
+  margin-bottom: 0px;
+  min-height: 0;
+  padding: 5px 5px 25px;
+  border-style: solid;
+  border-color: #cccccc;
+}
+.text__alrL {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(-90deg);
+}
+.matchTableRow__bRju8:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.matchTableRow__ko6ST:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.matchTableRow__h7AYh:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.matchTableRow__quyOm:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}

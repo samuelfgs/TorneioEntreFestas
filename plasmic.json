@@ -1,0 +1,128 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "verTqurZzkaRSaGwvFXmnc",
+      "projectApiToken": "lji16eo8nlBukH2stIOHCxhUkuM3tmwe3a1cLfnBV8KY61QoEZO8hlA16yczpp5pbOPQRdtTrQGWEIaJD48xQ",
+      "projectName": "Torneio Entre Festas",
+      "version": "latest",
+      "cssFilePath": "plasmic/torneio_entre_festas/plasmic_torneio_entre_festas.module.css",
+      "components": [
+        {
+          "id": "8Ud0pBNdU0",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "verTqurZzkaRSaGwvFXmnc",
+          "renderModuleFilePath": "plasmic/torneio_entre_festas/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/torneio_entre_festas/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "W_H4LjYWu5",
+          "name": "Table",
+          "type": "managed",
+          "projectId": "verTqurZzkaRSaGwvFXmnc",
+          "renderModuleFilePath": "plasmic/torneio_entre_festas/PlasmicTable.tsx",
+          "importSpec": {
+            "modulePath": "Table.tsx"
+          },
+          "cssFilePath": "plasmic/torneio_entre_festas/PlasmicTable.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "4330L__8c4",
+          "name": "TableRow",
+          "type": "managed",
+          "projectId": "verTqurZzkaRSaGwvFXmnc",
+          "renderModuleFilePath": "plasmic/torneio_entre_festas/PlasmicTableRow.tsx",
+          "importSpec": {
+            "modulePath": "TableRow.tsx"
+          },
+          "cssFilePath": "plasmic/torneio_entre_festas/PlasmicTableRow.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "TGRouhUaEx",
+          "name": "Group",
+          "type": "managed",
+          "projectId": "verTqurZzkaRSaGwvFXmnc",
+          "renderModuleFilePath": "plasmic/torneio_entre_festas/PlasmicGroup.tsx",
+          "importSpec": {
+            "modulePath": "Group.tsx"
+          },
+          "cssFilePath": "plasmic/torneio_entre_festas/PlasmicGroup.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "PaLU3rBawjK",
+          "name": "MatchTable",
+          "type": "managed",
+          "projectId": "verTqurZzkaRSaGwvFXmnc",
+          "renderModuleFilePath": "plasmic/torneio_entre_festas/PlasmicMatchTable.tsx",
+          "importSpec": {
+            "modulePath": "MatchTable.tsx"
+          },
+          "cssFilePath": "plasmic/torneio_entre_festas/PlasmicMatchTable.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "mSIdBRkJtwB",
+          "name": "MatchTableRow",
+          "type": "managed",
+          "projectId": "verTqurZzkaRSaGwvFXmnc",
+          "renderModuleFilePath": "plasmic/torneio_entre_festas/PlasmicMatchTableRow.tsx",
+          "importSpec": {
+            "modulePath": "MatchTableRow.tsx"
+          },
+          "cssFilePath": "plasmic/torneio_entre_festas/PlasmicMatchTableRow.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "SSKQHI4fjLD",
+        "name": "Screen",
+        "projectId": "verTqurZzkaRSaGwvFXmnc",
+        "contextFilePath": "plasmic/torneio_entre_festas/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.166",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.166/dist/plasmic.schema.json"
+}
