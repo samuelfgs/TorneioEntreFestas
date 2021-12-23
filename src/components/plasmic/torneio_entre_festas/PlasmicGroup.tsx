@@ -30,8 +30,8 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import Table from "../../Table"; // plasmic-import: W_H4LjYWu5/component
-import MatchTable from "../../MatchTable"; // plasmic-import: PaLU3rBawjK/component
+import { CompFs1TpivNis } from ""; // plasmic-import: Fs1TpivNis/codeComponent
+import { CompuTgz7Ui9Tx } from ""; // plasmic-import: uTGZ7UI9tx/codeComponent
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
@@ -50,8 +50,9 @@ export const PlasmicGroup__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicGroup__OverridesType = {
   root?: p.Flex<"div">;
-  table?: p.Flex<typeof Table>;
-  matchTable?: p.Flex<typeof MatchTable>;
+  freeBox?: p.Flex<"div">;
+  tableGroup?: p.Flex<typeof CompFs1TpivNis>;
+  tableMatch?: p.Flex<typeof CompuTgz7Ui9Tx>;
 };
 
 export interface DefaultGroupProps {
@@ -75,63 +76,42 @@ function PlasmicGroup__RenderFunc(props: {
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <div className={classNames(projectcss.all, sty.freeBox__q5Ju4)}>
-        <div className={classNames(projectcss.all, sty.freeBox__koqgS)}>
-          <div
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty.text__z6GyL
-            )}
-          >
-            {"Grupo A"}
-          </div>
-        </div>
+      <div
+        data-plasmic-name={"freeBox"}
+        data-plasmic-override={overrides.freeBox}
+        className={classNames(projectcss.all, sty.freeBox)}
+      >
+        <CompFs1TpivNis
+          data-plasmic-name={"tableGroup"}
+          data-plasmic-override={overrides.tableGroup}
+          className={classNames("__wab_instance", sty.tableGroup)}
+          tenistas={["Angelo", "Danilo", "Elvis", "Samuel"]}
+        />
 
-        <p.Stack
-          as={"div"}
-          hasGap={true}
-          className={classNames(projectcss.all, sty.freeBox__tIqnI)}
-        >
-          <Table
-            data-plasmic-name={"table"}
-            data-plasmic-override={overrides.table}
-            className={classNames("__wab_instance", sty.table)}
-          />
-
-          <div
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty.text__c5F1I
-            )}
-          >
-            {"Jogos"}
-          </div>
-
-          <MatchTable
-            data-plasmic-name={"matchTable"}
-            data-plasmic-override={overrides.matchTable}
-            className={classNames("__wab_instance", sty.matchTable)}
-          />
-        </p.Stack>
+        <CompuTgz7Ui9Tx
+          data-plasmic-name={"tableMatch"}
+          data-plasmic-override={overrides.tableMatch}
+          className={classNames("__wab_instance", sty.tableMatch)}
+        />
       </div>
     </div>
   ) as React.ReactElement | null;
 }
 
 const PlasmicDescendants = {
-  root: ["root", "table", "matchTable"],
-  table: ["table"],
-  matchTable: ["matchTable"]
+  root: ["root", "freeBox", "tableGroup", "tableMatch"],
+  freeBox: ["freeBox", "tableGroup", "tableMatch"],
+  tableGroup: ["tableGroup"],
+  tableMatch: ["tableMatch"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  table: typeof Table;
-  matchTable: typeof MatchTable;
+  freeBox: "div";
+  tableGroup: typeof CompFs1TpivNis;
+  tableMatch: typeof CompuTgz7Ui9Tx;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -195,8 +175,9 @@ export const PlasmicGroup = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    table: makeNodeComponent("table"),
-    matchTable: makeNodeComponent("matchTable"),
+    freeBox: makeNodeComponent("freeBox"),
+    tableGroup: makeNodeComponent("tableGroup"),
+    tableMatch: makeNodeComponent("tableMatch"),
 
     // Metadata about props expected for PlasmicGroup
     internalVariantProps: PlasmicGroup__VariantProps,

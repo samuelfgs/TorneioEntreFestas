@@ -6,7 +6,7 @@
   height: 100%;
   min-width: 0;
   min-height: 0;
-  padding: 12px 24px;
+  padding: 12px;
 }
 .root > :global(.__wab_flex-container) {
   flex-direction: column;
@@ -50,9 +50,74 @@
   text-align: center;
   min-height: 0;
 }
+.freeBox__nfgN1 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  background: none;
+  min-width: 0;
+  min-height: 0;
+  padding: 8px;
+}
+.freeBox__nfgN1 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+  min-height: 0;
+  margin-left: calc(0px - 15px);
+  width: calc(100% + 15px);
+}
+.freeBox__nfgN1 > :global(.__wab_flex-container) > *,
+.freeBox__nfgN1 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__nfgN1 > :global(.__wab_flex-container) > picture > img,
+.freeBox__nfgN1
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 15px;
+}
+.button__r516J:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__gUbBr {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg___0Iksh {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.button__oWMt:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+}
+.svg__modvH {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg___8G0 {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
 .group:global(.__wab_instance) {
   max-width: 100%;
   position: relative;
+  width: 100%;
+  min-width: 0;
 }
 .freeBox__qg6CD {
   display: flex;

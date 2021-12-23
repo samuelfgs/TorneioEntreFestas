@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -105,12 +105,43 @@
           "cssFilePath": "plasmic/torneio_entre_festas/PlasmicMatchTableRow.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "gtbM4CdREki",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "verTqurZzkaRSaGwvFXmnc",
+          "renderModuleFilePath": "plasmic/torneio_entre_festas/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/torneio_entre_festas/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
         }
       ],
-      "icons": [],
+      "icons": [
+        {
+          "id": "x2SSWSa98Lh",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/torneio_entre_festas/icons/PlasmicIcon__Checksvg.tsx"
+        }
+      ],
       "images": [],
       "indirect": false,
-      "codeComponents": []
+      "codeComponents": [
+        {
+          "id": "Fs1TpivNis",
+          "name": "CompFs1TpivNis",
+          "componentImportPath": ""
+        },
+        {
+          "id": "uTGZ7UI9tx",
+          "name": "CompuTgz7Ui9Tx",
+          "componentImportPath": ""
+        }
+      ]
     }
   ],
   "globalVariants": {

@@ -30,12 +30,15 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Button from "../../Button"; // plasmic-import: gtbM4CdREki/component
 import Group from "../../Group"; // plasmic-import: TGRouhUaEx/component
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
 import projectcss from "./plasmic_torneio_entre_festas.module.css"; // plasmic-import: verTqurZzkaRSaGwvFXmnc/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: 8Ud0pBNdU0/css
+
+import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: x2SSWSa98Lh/icon
 
 export type PlasmicHomepage__VariantMembers = {};
 
@@ -107,6 +110,30 @@ function PlasmicHomepage__RenderFunc(props: {
               </div>
             </div>
           ) : null}
+
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.freeBox__nfgN1)}
+          >
+            <Button
+              className={classNames("__wab_instance", sty.button__r516J)}
+              color={"softBlue" as const}
+              shape={"rounded" as const}
+              size={"compact" as const}
+            >
+              {"Grupo A"}
+            </Button>
+
+            <Button
+              className={classNames("__wab_instance", sty.button__oWMt)}
+              color={"blue" as const}
+              shape={"rounded" as const}
+              size={"compact" as const}
+            >
+              {"Grupo B"}
+            </Button>
+          </p.Stack>
 
           <Group
             data-plasmic-name={"group"}
