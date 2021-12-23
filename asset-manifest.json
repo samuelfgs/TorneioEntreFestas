@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TorneioEntreFestas/static/css/main.c9534afb.css",
-    "main.js": "/TorneioEntreFestas/static/js/main.3247d514.js",
+    "main.css": "/TorneioEntreFestas/static/css/main.9093015e.css",
+    "main.js": "/TorneioEntreFestas/static/js/main.658aecdb.js",
     "static/js/787.1ed37864.chunk.js": "/TorneioEntreFestas/static/js/787.1ed37864.chunk.js",
     "index.html": "/TorneioEntreFestas/index.html",
-    "main.c9534afb.css.map": "/TorneioEntreFestas/static/css/main.c9534afb.css.map",
-    "main.3247d514.js.map": "/TorneioEntreFestas/static/js/main.3247d514.js.map",
+    "main.9093015e.css.map": "/TorneioEntreFestas/static/css/main.9093015e.css.map",
+    "main.658aecdb.js.map": "/TorneioEntreFestas/static/js/main.658aecdb.js.map",
     "787.1ed37864.chunk.js.map": "/TorneioEntreFestas/static/js/787.1ed37864.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9534afb.css",
-    "static/js/main.3247d514.js"
+    "static/css/main.9093015e.css",
+    "static/js/main.658aecdb.js"
   ]
 }
